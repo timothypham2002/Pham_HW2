@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/CSS.css">
+  <title>Form Page</title>
+  | <a href="index.html">HOME</a> |
+  <br>
+</head>
+
+<body>
+  <h2>Submit a Form</h2>
+  <h4>Please Fill out the Information Below</h4>
+  <p>
+  <form action="/actionpage.py" target="_blank">
+    Name: <input type="text" name="name"><br>
+    Password: <input type="password" name="pwd"><br>
+    Pizza Type: <input type="text" name="pz"><br>
+    Quantity: <input type="text" name="qy"><br>
+  </form>
+  </p>
+
+  Payment:<br>
+  <input type="radio" name="pmt" value="cash" checked>Cash<br>
+  <input type="radio" name="pmt" value="credit">Venmo<br>
+  <input type="radio" name="pmt" value="credit">Zelle<br>
+  <input type="radio" name="pmt" value="credit">Credit<br>
+  <input type="radio" name="pmt" value="debit">Debit<br>
+  <input type="radio" name="pmt" value="credit">ApplePay<br>
+  <br>
+
+  <td valign="top">
+    Add-On's:<br>
+    <input type="checkbox" name="drink" value="drink">Drink<br>
+    <input type="checkbox" name="sauce" value="sauce">Sauce<br>
+    <input type="checkbox" name="bread" value="bread">Bread<br>
+    <input type="checkbox" name="wings" value="wings">Wings
+  </td><br>
+
+  <br>
+
+  Order Date: <input type="date" name="dob"><br>
+
+
+  <br>
+
+  <td valign="top">
+    Pickup or Delivery:<br>
+    <select name="food">
+      <option value="pickup">Pickup</option>
+      <option value="delivery">DoorDash</option>
+      <option value="delivery">Car Delivery</option>
+      <option value="delivery">Bike Delivery</option>
+    </select>
+  </td>
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+</body>
+
+</html>
