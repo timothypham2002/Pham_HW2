@@ -1,0 +1,58 @@
+Body {
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+h1,
+h2 {
+  font-family: 'Courier New';
+  color: red;
+}
+
+body {
+  font-family: 'Courier New';
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+input[type="submit"]:hover {
+  background-color: red;
+}
+input[type="submit"]:active {
+  background-color: green;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:nth-child(even):hover {
+  background-color: lightblue;
+}
+
+tr:nth-child(odd):hover {
+  background-color: lightblue;
+}
